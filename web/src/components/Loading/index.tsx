@@ -16,7 +16,12 @@ const Loading = (props: Props) => {
         fontSize: '1.3em',
       }}>
       <BeatLoader color={theme.progressBar.progress} />
-      <h3>{props.text}</h3>
+      <h3
+        style={{
+          color: theme.button.buttonHover,
+        }}>
+        {props.text}
+      </h3>
     </div>
   );
 };

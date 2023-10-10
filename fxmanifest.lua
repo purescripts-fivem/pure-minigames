@@ -28,3 +28,7 @@ files {
 	'web/build/**/*',
   'config/themes.json'
 }
+
+exports {
+  'numberCounter',
+}

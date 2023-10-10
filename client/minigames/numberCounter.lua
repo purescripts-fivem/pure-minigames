@@ -31,7 +31,7 @@ RegisterCommand('numberCounter', function()
         amountOfGames = 2,
         incrementByAmount = 5,
     }
-    local result = numberCounter(gameData)
+    local result = exports['pure-minigames']:numberCounter(gameData)
     print('Result - Command', result)
 end)
 

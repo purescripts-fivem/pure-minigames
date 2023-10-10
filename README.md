@@ -19,6 +19,6 @@ This is a game where the user has to click the numbers in the correct order from
         amountOfGames = 2,
         incrementByAmount = 5,
     }
-    local result = numberCounter(gameData)
+    local result = exports['pure-minigames']:numberCounter(gameData)
 
 This awaits the result and returns true or false
