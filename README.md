@@ -21,4 +21,9 @@ This is a game where the user has to click the numbers in the correct order from
     }
     local result = exports['pure-minigames']:numberCounter(gameData)
 
+Or
+
+    -- when you send no data it will use the config data
+    local result = exports['pure-minigames']:numberCounter()
+
 This awaits the result and returns true or false
