@@ -1,0 +1,12 @@
+.progress {
+  width: 80%;
+  height: 22%;
+  border-radius: 8px;
+  overflow: hidden;
+  /* transition: all 0.2s; */
+}
+
+.progressInner {
+  height: 100%;
+  transition: width 1s linear;
+}

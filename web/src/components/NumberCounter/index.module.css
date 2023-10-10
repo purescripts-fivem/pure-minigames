@@ -1,0 +1,53 @@
+.top {
+  /* background-color: rgba(0, 255, 255, 0.342); */
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom {
+  width: 100%;
+  height: 78%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.progBar {
+  margin-top: -2%;
+  width: 100%;
+  height: 5%;
+}
+
+.buttonHolder {
+  width: 90%;
+  height: 90%;
+  display: grid;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: -1px;
+  cursor: pointer;
+  margin-top: -1px;
+}
+
+.progress {
+  margin-left: 5%;
+  width: 90%;
+  height: 30%;
+  overflow: hidden;
+}
+
+.progressInner {
+  height: 100%;
+  transition: width 1s linear;
+}

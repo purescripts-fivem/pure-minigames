@@ -1,0 +1,10 @@
+.finished {
+  position: absolute;
+  margin-top: -3%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}

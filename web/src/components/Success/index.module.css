@@ -1,0 +1,17 @@
+.finished {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -3%;
+}
+
+.finishedText {
+  text-shadow:
+    3px 0px 7px rgba(0, 0, 0, 0.45),
+    -3px 0px 7px rgba(0, 0, 0, 0.45),
+    0px 4px 7px rgba(0, 0, 0, 0.45);
+}

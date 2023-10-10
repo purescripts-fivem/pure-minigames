@@ -1,0 +1,18 @@
+{
+  "background": "#101010",
+  "button": {
+    "buttonBackground": "#222222",
+    "buttonHover": "#3C3C3C",
+    "buttonSelected": "#333333",
+    "buttonText": "#BFBFBF"
+  },
+  "failedTextColour": "#CB3D3D",
+  "progressBar": {
+    "background": "#0A6006",
+    "failedBackground": "#902020",
+    "progress": "#4DC048",
+    "numberRandomiserBackground": "#202020",
+    "numberRandomiserProgress": "#385396"
+  },
+  "textColour": "#fff"
+}
